@@ -1,0 +1,18 @@
+[package]
+name = "parse-duration-with-fallbacks"
+version = "0.1.0"
+edition = "2021"
+license = "MIT/Apache-2.0"
+keywords = ["time", "human", "parser", "duration", "humantime"]
+homepage = "https://github.com/omarjatoi/humantime-fallbacks"
+repository = "https://github.com/omarjatoi/humantime-fallbacks"
+authors = ["Omar Jatoi <git@omarjatoi.com>"]
+categories = ["date-and-time"]
+
+[lib]
+name = "parse_duration_with_fallbacks"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow = "1.0.91"
+humantime = "2.1.0"
