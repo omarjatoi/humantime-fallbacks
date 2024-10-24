@@ -17,7 +17,7 @@ Supports the following convenience wrappers:
 - using a duration string:
   ```rust
   let duration_string = "42h";
-  match parse_duration_fallback_secs(duration_string) {
+  match parse_duration_fallback_sec(duration_string) {
       Ok(duration) => {
           println!("{:?}", duration);
       }
@@ -29,7 +29,7 @@ Supports the following convenience wrappers:
 - using a number:
   ```rust
   let seconds = "1_000_000";
-  match parse_duration_fallback_secs(seconds) {
+  match parse_duration_fallback_sec(seconds) {
       Ok(duration) => {
           println!("{:?}", duration);
       }
